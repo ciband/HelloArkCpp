@@ -1,0 +1,6 @@
+[submodule "include/cpp-client"]
+	path = include/cpp-client
+	url = https://github.com/ArkEcosystem/cpp-client.git
+[submodule "include/cpp-crypto"]
+	path = include/cpp-crypto
+	url = https://github.com/ArkEcosystem/cpp-crypto.git
