@@ -23,10 +23,11 @@ elseif (UNIX)
 endif()
 
 add_subdirectory(lib/cpp-crypto)
+#add_subdirectory(lib/cpp-client)
 
 add_executable(HelloArkCpp
 	${PROJECT_SOURCE_DIR}/main.cpp
 )
 
-target_link_libraries(HelloArkCpp Ark-Cpp-Client-lib)
+#target_link_libraries(HelloArkCpp Ark-Cpp-Client-lib)
 target_link_libraries(HelloArkCpp Ark-Cpp-Crypto-lib)
