@@ -338,3 +338,5 @@ ASALocalRun/
 /ALL_BUILD.vcxproj
 /ZERO_CHECK.vcxproj.filters
 /ZERO_CHECK.vcxproj
+/INSTALL.vcxproj.filters
+/INSTALL.vcxproj
